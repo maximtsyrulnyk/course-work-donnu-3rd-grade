@@ -2,10 +2,10 @@
 @use "../../lib/varibles.scss";
 
 // кольори типів фінансів
-$balance-color: #cef1ef;
-$ref-earning-color: #fddcdf;
-$sales-color: #fcebcc;
-$earning-color: #d4e0ff;
+$balance-color: #0bb7af;
+$ref-earning-color: #f64e60;
+$sales-color: #ee9d01;
+$earning-color: #2962ff;
 
 .cost-item {
     display: flex;
@@ -15,6 +15,10 @@ $earning-color: #d4e0ff;
 }
 
 .cost {
+    opacity: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #dbe0e5;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
 }
