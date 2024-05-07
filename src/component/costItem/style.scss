@@ -7,6 +7,10 @@ $ref-earning-color: #f64e60;
 $sales-color: #ee9d01;
 $earning-color: #2962ff;
 
+// =============================================
+
+$finance: "balance", $balance-color, "ref-earning", $ref-earning-color, "sales", $sales-color, "earning", $earning-color;
+
 .cost-item {
     display: flex;
     // викликаючи міксин spacing з файлу service.scss задаємо відступи нашому контейнеру

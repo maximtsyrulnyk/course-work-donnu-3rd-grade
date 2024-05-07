@@ -101,7 +101,6 @@ router.get('/use', function (req, res) {
   })
   // ↑↑ сюди вводимо JSON дані
 })
-
 router.get('/func', function (req, res) {
   // res.render генерує нам HTML сторінку
 
@@ -111,8 +110,29 @@ router.get('/func', function (req, res) {
   })
   // ↑↑ сюди вводимо JSON дані
 })
+// ================================================================
+
+router.get('/for', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  // ↙️ cюди вводимо назву файлу з сontainer
+  res.render('for', {
+    style: 'for',
+  })
+  // ↑↑ сюди вводимо JSON дані
+})
+// ================================================================
 
 // ================================================================
 
+router.get('/while', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  // ↙️ cюди вводимо назву файлу з сontainer
+  res.render('while', {
+    style: 'while',
+  })
+  // ↑↑ сюди вводимо JSON дані
+})
 // Підключаємо роутер до бек-енду
 module.exports = router
